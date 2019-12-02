@@ -67,7 +67,7 @@
 //    @Test
 //    public void testQueryByStr(){
 //        try {
-//            String searchStr = "陈夏天u马立,@456";
+//            String searchStr = "陈夏天u马立,@";
 //            QueryStringQueryBuilder builder = new QueryStringQueryBuilder(searchStr);
 //            builder.analyzer("myanalyzer").field("username").field("password").field("ip");
 //
@@ -82,5 +82,4 @@
 //            System.out.println("---> 异常信息 "+e);
 //        }
 //    }
-////
 //}

@@ -29,7 +29,6 @@ public class Library {
      *     store：是否存储
      *     type: 数据类型
      */
-
     @Id
     @Field(type = FieldType.Integer)
     private Integer book_id;

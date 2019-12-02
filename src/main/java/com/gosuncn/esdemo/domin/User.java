@@ -21,17 +21,16 @@
 //     *     store：是否存储
 //     *     type: 数据类型
 //     */
-//
 //    @Id
-//    @Field(store = true, index = false, type =FieldType.Integer)
+//    //@Field(store = true, index = false, type =FieldType.Integer)
 //    private Integer id;
-//    @Field(store = true, index = true, type = FieldType.keyword, analyzer = "myanalyzer", searchAnalyzer = "myanalyzer")
+//    //@Field(store = true, index = true, type = FieldType.keyword, analyzer = "myanalyzer", searchAnalyzer = "myanalyzer")
 //    private String username;
-//    @Field(store = true, index = true, type = FieldType.keyword, analyzer = "myanalyzer", searchAnalyzer = "myanalyzer")
+//    //@Field(store = true, index = true, type = FieldType.keyword, analyzer = "myanalyzer", searchAnalyzer = "myanalyzer")
 //    private String password;
-//    @Field(store = true, index = true, type = FieldType.Integer, analyzer = "myanalyzer", searchAnalyzer = "myanalyzer")
+//    //@Field(store = true, index = true, type = FieldType.Integer, analyzer = "myanalyzer", searchAnalyzer = "myanalyzer")
 //    private Integer age;
-//    @Field(store = true, index = true, type = FieldType.keyword, analyzer = "myanalyzer", searchAnalyzer = "myanalyzer")
+//    //@Field(store = true, index = true, type = FieldType.keyword, analyzer = "myanalyzer", searchAnalyzer = "myanalyzer")
 //    private String ip;
 //
 //}
